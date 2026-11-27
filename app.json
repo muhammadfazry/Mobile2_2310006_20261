@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Pratikum5",
+    "name": "2310006-MuhammadFazry",
     "slug": "Pratikum5",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -33,9 +33,14 @@
           "imageWidth": 76
         }
       ],
-      "expo-image",
-      "expo-status-bar",
-      "expo-web-browser"
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikasi membutuhkan akses galeri untuk memilih foto profil Anda.",
+          "cameraPermission": "Aplikasi membutuhkan akses kamera untuk mengambil foto profil secara langsung.",
+          "microphonePermission": false
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
